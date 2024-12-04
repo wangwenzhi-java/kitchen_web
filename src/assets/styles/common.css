@@ -1,0 +1,20 @@
+/* src/assets/styles/common.css */
+
+:root {
+    --primary-color: #fec0be;
+    --secondary-color: #333;
+    --font-family: 'Arial', sans-serif;
+}
+
+/* 全局样式设置 */
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252 211 211 / 54%);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
